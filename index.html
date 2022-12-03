@@ -6,9 +6,9 @@
     </head>
     <body>
         <script type="module">
-            import init, {greet} from "./pkg/becoin_wasm.js";
+            import init, {greet, start} from "./pkg/becoin_wasm.js";
             init().then(() => {
-                greet("wasm");
+                start();
             });
         </script>
     </body>
