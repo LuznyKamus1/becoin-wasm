@@ -1,0 +1,19 @@
+{
+  "name": "becoin-wasm",
+  "collaborators": [
+    "rkinkk r3kinek0@gmail.com"
+  ],
+  "version": "0.1.0",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/rkinkk/becoin-wasm"
+  },
+  "files": [
+    "becoin_wasm_bg.wasm",
+    "becoin_wasm.js",
+    "becoin_wasm.d.ts"
+  ],
+  "module": "becoin_wasm.js",
+  "types": "becoin_wasm.d.ts",
+  "sideEffects": false
+}
